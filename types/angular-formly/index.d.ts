@@ -174,7 +174,7 @@ declare namespace AngularFormly {
 		 *
 		 * see http://docs.angular-formly.com/docs/field-configuration-object#controller-controller-name-as-string--controller-f
 		 */
-		controller?: string | Function;
+		controller?: string | Function | Array<string|Function>;
 
 
 		/**
